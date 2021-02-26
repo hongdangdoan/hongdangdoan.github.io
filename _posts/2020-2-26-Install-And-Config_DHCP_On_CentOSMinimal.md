@@ -62,7 +62,7 @@ Open port 67 UDP:
 iptables -A INPUT -p udp -m state --state NEW --dport 67 -j ACCEPT
 ```
 If you use another firewall service you should research the way to open port 67 UDP in your system.  
-Check if there is a DHCPd service that has been listened to socket port 67 udp.  
+Check if there is a DHCPD service that has been listened to socket port 67 udp.  
 ```
 netstat -ulnp | grep 67
 ```
