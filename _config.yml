@@ -44,7 +44,7 @@ social-network-links:
   github: hongdangdoan
 #  twitter: daattali
 #  patreon: DeanAttali
-#  youtube: c/daattali
+  youtube: https://www.youtube.com/channel/UC69b0_4qYsEOn6Q5xUGun9A
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -71,9 +71,9 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
