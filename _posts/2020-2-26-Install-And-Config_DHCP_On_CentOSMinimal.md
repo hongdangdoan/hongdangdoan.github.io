@@ -54,7 +54,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 ## 3.Start DHCP and set rule firewall
 ```
 systemctl start dhcpd
-``
+```
 show status of dhcpd
 ```
 systemctl status dhcpd
