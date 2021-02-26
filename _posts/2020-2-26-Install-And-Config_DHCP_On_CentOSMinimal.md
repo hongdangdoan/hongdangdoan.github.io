@@ -20,11 +20,11 @@ Allow dhcpd start with system startup
 systemctl enable dhcpd
 ```
 Directory structure of dhcpd 
-**/etc/dhcp/dhcpd.conf**: The file config of dhcpd
-**/var/lib/dhcpd/dhcpd.lease**: The file contains information about dynamic IPs being granted via DHCP.
-**/var/log/message**: The default log file of 4 way DHCP
+**/etc/dhcp/dhcpd.conf**: The file config of dhcpd.  
+**/var/lib/dhcpd/dhcpd.lease**: The file contains information about dynamic IPs being granted via DHCP.  
+**/var/log/message**: The default log file of 4 way DHCP.  
 ## 2.Config DHCP Service:
-First, you can copy the existing sample configuration file to use for configuring the DHCP service.
+First, you can copy the existing sample configuration file to use for configuring the DHCP service.  
 ```
 cp -f /usr/share/doc/dhcp-*/dhcpd.conf.example /etc/dhcp/dhcpd.conf
 ```
@@ -53,7 +53,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 ```
 systemctl start dhcpd
 ```
-show status of dhcpd
+show status of dhcpd:  
 ```
 systemctl status dhcpd
 ```
@@ -61,8 +61,8 @@ Open port 67 UDP:
 ```
 iptables -A INPUT -p udp -m state --state NEW --dport 67 -j ACCEPT
 ```
-If you use another firewall service you should research the way to open port 67 UDP in your system
-Check if there is a DHCPd service that has been listened to socket port 67 udp
+If you use another firewall service you should research the way to open port 67 UDP in your system.  
+Check if there is a DHCPd service that has been listened to socket port 67 udp.  
 ```
 netstat -ulnp | grep 67
 ```
