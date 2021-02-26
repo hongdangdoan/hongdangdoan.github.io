@@ -33,8 +33,6 @@ vi /etc/dhcp/dhcpd.conf
 ```
 Configuration file content simple:
 ```
-
-
 default-lease-time 600;
 max-lease-time 7200;
 lease-file-name "/var/lib/dhcpd/dhcpd.leases";
@@ -63,7 +61,7 @@ Open port 67 UDP:
 ```
 iptables -A INPUT -p udp -m state --state NEW --dport 67 -j ACCEPT
 ```
-if you use another firewall service you should research the way to open port 67 UDP in your system
+If you use another firewall service you should research the way to open port 67 UDP in your system
 Check if there is a DHCPd service that has been listened to socket port 67 udp
 ```
 netstat -ulnp | grep 67
