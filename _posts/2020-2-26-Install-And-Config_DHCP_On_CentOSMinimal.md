@@ -20,10 +20,10 @@ Allow dhcpd start with system startup
 systemctl enable dhcpd
 ```
 Directory structure of dhcpd 
-**/etc/dhcp/dhcpd.conf**: The file config of dhcpd.  
-**/var/lib/dhcpd/dhcpd.lease**: The file contains information about dynamic IPs being granted via DHCP.  
-**/var/log/message**: The default log file of 4 way DHCP.  
-## 2.Config DHCP Service:
+**/etc/dhcp/dhcpd.conf**: The file config of dhcpd.    
+**/var/lib/dhcpd/dhcpd.lease**: The file contains information about dynamic IPs being granted via DHCP.    
+**/var/log/message**: The default log file of 4 way DHCP.      
+## 2.Config DHCP Service:  
 First, you can copy the existing sample configuration file to use for configuring the DHCP service.  
 ```
 cp -f /usr/share/doc/dhcp-*/dhcpd.conf.example /etc/dhcp/dhcpd.conf
