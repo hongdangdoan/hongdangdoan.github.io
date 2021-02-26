@@ -44,8 +44,7 @@ social-network-links:
   github: hongdangdoan
 #  twitter: daattali
 #  patreon: DeanAttali
-  youtube:  
-    id: 'UC69b0_4qYsEOn6Q5xUGun9A'
+  youtube:id: 'UC69b0_4qYsEOn6Q5xUGun9A'
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -72,8 +71,7 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  youtube:  
-    id: 'UC69b0_4qYsEOn6Q5xUGun9A'
+  youtube: chanel/UC69b0_4qYsEOn6Q5xUGun9A
   twitter: false
   facebook: false
   linkedin: false
