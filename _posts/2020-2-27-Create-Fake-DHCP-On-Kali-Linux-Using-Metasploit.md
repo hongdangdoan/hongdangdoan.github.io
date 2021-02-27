@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create Fake DHCP Using Metasploit  
-categories: [hacking-lab]
+categories: [Hacking-lab]
 #subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
