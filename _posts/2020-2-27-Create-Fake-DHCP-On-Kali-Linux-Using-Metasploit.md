@@ -14,7 +14,7 @@ that sends all network traffic through here. There are many ways to do this, and
 * **gateway: 192.168.1.1** 
 * **netmask: 255.255.255.0**  
 * **attacker: 192.168.1.92**  
-## 2. Create Fake DHCP: 
+## 2. Create Fake DHCP:  
 Open Metasploit:  
 ```
 msfconsole
