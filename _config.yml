@@ -16,8 +16,8 @@ author: HONG DANG.D
 navbar-links:
   About Me: "aboutme"
   Menu:
-    - Hacking Lab: "https://beautifuljekyll.com"
-    - System: "https://www.markdowntutorial.com/"
+    - Hacking Lab: "https://hongdangdoan.github.io/Hacking-lab/"
+    - System: "https://hongdangdoan.github.io/System/"
   #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
