@@ -18,14 +18,14 @@ that sends all network traffic through here. There are many ways to do this, and
 Open Metasploit:  
 ```
 msfconsole
-```
+```  
 ```
 use auxiliary/server/dhcp
-```
+```  
 ```
 show options
 ```
-![](assets/img/2020-27-2-show-options.png)
+![](/assets/img/2020-27-2-show-options.png)
 
 Setup DHCP server:  
 ```
@@ -55,9 +55,9 @@ run
 Network information of another machine before and after run fake DHCP:  
 *before*  
 
-![](assets/img/2020-27-2-before.png)  
+![](/assets/img/2020-27-2-before.png)  
 
 *after*  
 
-![](assets/img/2020-27-2-after.png)
+![](/assets/img/2020-27-2-after.png)
 
