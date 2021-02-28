@@ -6,7 +6,7 @@ categories: System
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [dhcp, install dhcp, dhcp centos]
 ---
 ## 1.Install:
 ``` bash
