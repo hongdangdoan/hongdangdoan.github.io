@@ -1,6 +1,12 @@
 ---
 layout: post
+title: Redirect Access Websites In LAN Using Dnsspoof  
 categories: Hacking-Lab
+#subtitle: Excerpt from Soulshaping by Jeff Brown
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [hacking, dnsspoof, redirect dns, dns spoofing ]
 
 ---
 ## Script:  
