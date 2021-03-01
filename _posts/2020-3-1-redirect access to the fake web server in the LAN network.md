@@ -16,7 +16,7 @@ they create a websites has the similar name in their computer, call **www.bankof
 make someone else visit **www.bankofamerrica.com** instead **www.bankofamerica.com**.  
 ## 1. Network Model:  
 - **Attacker: 192.168.1.92**
-- **User: 192.168.1.173 using windows 7 system**  
+- **User: 192.168.1.173 using windows 7 system**   
 
 
 ## 2. Create Webserver:  
@@ -38,7 +38,7 @@ Type:
 ```
 192.168.1.92  www.bankofamerrica.com
 ```     
-> :warning: **Warning:** use **TAB** between ip and domain.  
+>:warning: **Warning:** use **TAB** between ip and domain.  
 ```    
 dnsspoof -f /usr/local/hosts
 ```   
