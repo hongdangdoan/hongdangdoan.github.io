@@ -24,8 +24,9 @@ We can you service apache2 in kali linux to create a webserver. we should change
 ```
 vi /var/www/html/index.html
 ```    
-Type: This Is Fake Websites Of www.bankofamerica.com    
-![](/assets/img/2020-3-1-index.png)  
+Type: This Is Fake Websites Of www.bankofamerica.com   
+  
+ ![](/assets/img/2020-3-1-index.png)  
 ```
 service apache2 start 
 ```    
@@ -39,6 +40,8 @@ Type:
 192.168.1.92  www.bankofamerrica.com  
 ```  
 >:warning: **Warning:** use **TAB** between ip and domain.  
+
+ 
 ```    
 dnsspoof -f /usr/local/hosts
 ```  
