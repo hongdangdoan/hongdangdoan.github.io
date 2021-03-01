@@ -1,3 +1,8 @@
+---
+layout: post
+categories: Hacking-Lab
+
+---
 ## Script:  
 Attacker and victim in a LAN network together and victim want to access to websites **www.bankofamerica.com** to make transactions.  
 Because **www.bankofamerica** is protected by SSL so attacker can not attack by fake **www.bankofamerica.com**  in their computer. So  
