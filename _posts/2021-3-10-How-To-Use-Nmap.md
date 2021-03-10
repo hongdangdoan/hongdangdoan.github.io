@@ -13,7 +13,7 @@ This is intended to identify the system's critical servers and vulnerable servic
 use nmap.  
 ## 1. Determine The Active Hosts:  
 First you should know netmask of the target system.  
-If you in you are in target's network, see in formation of network in your system.  
+If you in you are in target's network, see information of network in your system.  
 ```
 ifconfig  
 ```  
