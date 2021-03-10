@@ -12,11 +12,13 @@ Before attempting to attack a particular system it is essential to first underst
 This is intended to identify the system's critical servers and vulnerable services. There are many tool to do this, but you can  
 use nmap.  
 ## 1. Determine The Active Hosts:  
-First you should netmask of the target system.    
+First you should know netmask of the target system.  
+If you in you are in target's network, see in formation of network in your system.  
 ```
 ifconfig  
 ```  
 ![](/assets/img/How-To-Use-Nmap/ifconfig.png)  
+
 You can see the nestmask of target system is *192.168.1.0/24*  
 Use  
 ```
