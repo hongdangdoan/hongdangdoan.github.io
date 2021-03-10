@@ -1,3 +1,13 @@
+---
+layout: post
+title: How To Use Nmap
+categories: Hacking-Lab
+#subtitle: Excerpt from Soulshaping by Jeff Brown
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [nmap, hacking]
+---
 Before attempting to attack a particular system it is essential to first understand the network model of the target system.  
 This is intended to identify the system's critical servers and vulnerable services. There are many tool to do this, but you can  
 use nmap.  
