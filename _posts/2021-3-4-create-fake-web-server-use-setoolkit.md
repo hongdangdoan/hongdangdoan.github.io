@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Man In The Middle Attack - DNS Spoofing Part 1   
-subtitle: Part 1: Create Fake Web Server Include Malicious Code
+#subtitle: Part 1: Create Fake Web Server Include Malicious Code
 categories: Hacking-Lab
 #subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/path.jpg
@@ -10,7 +10,8 @@ share-img: /assets/img/path.jpg
 tags: [hacking, dnsspoof, redirect dns, dns spoofing, mitmd ]
 
 ---
-# Part 1: Create Fake Web Server Include Malicious Code  
+
+
 ## 1. Social Engineering Tool Kit (SET): 
 
 SET is an open source, free Python cybersecurity tool used by security researchers, penetration testers, blue and purple teams from around the world.  
