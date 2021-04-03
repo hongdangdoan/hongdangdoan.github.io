@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Man In The Middle Attack - DNS Spoofing Part 1   
-#subtitle: Part 1: Create Fake Web Server Include Malicious Code
+subtitle: Part 1: Create Fake Web Server Include Malicious Code
 categories: Hacking-Lab
-#subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
